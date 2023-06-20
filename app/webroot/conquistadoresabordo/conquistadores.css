@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+
+a.bthome{
+	display:block;
+	width:187px;
+	height:24px;
+	background:url(images/home.jpg) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.bthome{
+	background:url(images/home-over.jpg) no-repeat;
+}
+
+a.btranking{
+	display:block;
+	width:187px;
+	height:24px;
+	background:url(images/ranking.jpg) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btranking{
+	background:url(images/ranking-over.jpg) no-repeat;
+}
+
+a.btregulamento{
+	display:block;
+	width:187px;
+	height:25px;
+	background:url(images/regulamento.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btregulamento{
+	background:url(images/regulamento-over.jpg) no-repeat;
+}
+
+a.btpremiacao{
+	display:block;
+	width:187px;
+	height:25px;
+	background:url(images/premiacao.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btpremiacao{
+	background:url(images/premiacao-over.jpg) no-repeat;
+}
+
+a.btagenda{
+	display:block;
+	width:187px;
+	height:23px;
+	background:url(images/agenda.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btagenda{
+	background:url(images/agenda-over.jpg) no-repeat;
+}
+
+a.btparticipantes{
+	display:block;
+	width:187px;
+	height:24px;
+	background:url(images/participantes.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btparticipantes{
+	background:url(images/participantes-over.jpg) no-repeat;
+}
+
+a.btocruzeiro{
+	display:block;
+	width:187px;
+	height:24px;
+	background:url(images/ocruzeiro.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btocruzeiro{
+	background:url(images/ocruzeiro-over.jpg) no-repeat;
+}
+
+
+#contHome{
+	margin-left:0px;
+	margin-bottom:30px;
+	width:519px;
+	font-family: "Louis-Regular", serif;
+	/*font-style:italic;*/
+	font-size:14px;
+	color:#464B58;
+}

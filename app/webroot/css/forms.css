@@ -1,0 +1,257 @@
+.w01{
+    width: 60px;
+}
+.w02{
+    width: 150px;
+}
+.w03{
+    width: 300px;
+}
+.w04{
+    width: 350px;
+}
+
+.w05{
+    width: 450px;
+}
+
+.h01{
+    height: 40px;
+}
+.h03{
+    height: 150px;
+}
+.h04{
+    height: 250px;
+}
+/*** frm-01 ***/
+.frm-01 input{
+    font-size: 13px;
+}
+
+.frm-01 fieldset{
+    border:1px solid #E5E5E5;
+    padding: 2px;
+}
+
+.frm-01 fieldset legend{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: #002166;
+}
+
+.frm-01 div{
+    font-size: 13px;
+    padding: 10px;
+
+    margin-bottom: 1px;
+    height: 22px;
+    clear: both;
+}
+
+.frm-01 div label{
+    float: left;
+    font-weight: bold;
+    padding-right: 6px;
+    padding-top: 0px;
+    text-align: right;
+    width: 65px;
+}
+.frm-01 div span{
+    float: left;
+    padding: 5px;
+}
+.frm-01 div.submit{
+    padding-left: 80px;
+}
+
+.frm-01 div.submit input{
+    font-size: 13px;
+}
+/*** /frm-01 ***/
+
+/*** frm-02 ***/
+.frm-02 input,.frm-02 option, .frm-02 select{
+    font-size: 13px;
+}
+
+.frm-02 fieldset{
+    border-top:2px solid gray;
+    margin-bottom: 30px;
+    padding: 2px;
+}
+
+.frm-02 fieldset legend{
+    font-size: 13px;
+    padding: 10px;
+    font-weight: bold;
+    color: #002166;
+}
+
+.frm-02 div{
+    font-size: 13px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1px;
+    clear: both;
+}
+
+.frm-02 div label{
+    padding-top: 5px;
+    padding-right: 6px;
+    width: 155px;
+    font-weight: bold;
+    text-align: right;
+    float:left;
+    color:#333;
+}
+.frm-02 input.error{
+    border:2px inset red;
+    
+}
+.frm-02 label.error{
+    padding-left: 160px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    float: none;
+    color: red;
+}
+.frm-02 div span.f{
+    float: left;
+    padding: 5px;
+}
+.frm-02 div.submit{
+    padding-left: 170px;
+}
+
+.frm-02 div.submit input{
+    font-size: 13px;
+}
+
+.frm-02 .destaque{
+    color: red;
+    font-weight: normal;
+    font-size: 10px;
+}
+/*** /frm-02 ***/
+
+
+
+/*** frm-03 ***/
+.frm-03 input{
+    font-size: 13px;
+}
+
+.frm-03 fieldset{
+    border:1px solid #E5E5E5;
+    padding: 2px;
+    background-color: #F9F9F9;
+    /*-moz-border-radius: 10px;
+    border-radius: 10px;*/
+}
+
+.frm-03 fieldset legend{
+    color: #001624;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.frm-03 .d-linha{
+    font-size: 13px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1px;
+    clear: both;
+}
+
+.frm-03 .d-linha label{
+    float: left;
+    font-weight: bold;
+    padding-right: 6px;
+    text-align: right;
+    width: 110px;
+}
+
+.frm-03 .d-linha label.error{
+    color: red;
+    width: 186px;
+    float: right;
+}
+
+
+.frm-03 .d-linha.submit{
+    padding-left: 115px;
+    border-width: 0px;
+}
+
+.frm-03 .d-linha.submit input{
+    font-size: 13px;
+}
+/*** /frm-03 ***/
+
+/*** frm-busca ***/
+.frm-busca{
+    margin-bottom: 30px;
+}
+
+.frm-busca fieldset{
+    border:1px solid #E5E5E5;
+    padding: 2px;
+}
+
+.frm-busca fieldset legend{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    color: #002166;
+}
+
+.frm-busca input, .frm-busca select, .frm-busca select option{
+    font-size: 13px;
+}
+
+.frm-busca fieldset{
+    background-color: #F7F7F7;
+    border: 1px solid #E5E5E5;
+    padding: 2px;
+}
+
+.frm-busca fieldset legend{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    color: #002166;
+}
+
+.frm-busca div{
+    background-color: #F7F7F7;
+    border-right: 1px solid #E5E5E5;
+    float: left;
+    font-size: 13px;
+    height: 40px;
+    margin-right: 1px;
+    padding: 8px;
+}
+
+.frm-busca div label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    text-align: left;
+}
+
+.frm-busca div.submit {
+    border-right: 0 solid #FFFFFF;
+    height: 27px;
+    padding-top: 20px;
+}
+
+.frm-busca div.submit input{
+    font-size: 13px;
+}
+

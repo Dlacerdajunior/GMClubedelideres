@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+	url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+
+a.btbigfive{
+	display:block;
+	width:91px;
+	height:69px;
+	background:url(images/bigfive.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btbigfive{
+	background:url(images/bigfive-over.png) no-repeat;
+}
+
+a.btdestino{
+	display:block;
+	width:68px;
+	height:69px;
+	background:url(images/destino.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btdestino{
+	background:url(images/destino-over.png) no-repeat;
+}
+
+a.btdicas{
+	display:block;
+	width:54px;
+	height:69px;
+	background:url(images/dicas.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btdicas{
+	background:url(images/dicas-over.png) no-repeat;
+}
+
+a.bthoteis{
+	display:block;
+	width:63px;
+	height:69px;
+	background:url(images/hoteis.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.bthoteis{
+	background:url(images/hoteis-over.png) no-repeat;
+}
+
+a.btroteiro{
+	display:block;
+	width:150px;
+	height:69px;
+	background:url(images/index_r2_c5.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btroteiro{
+	background:url(images/index_r2_c5_s2.png) no-repeat;
+}
+
+#contHome{
+	margin-left:20px;
+	margin-top:10px;
+	width:519px;
+	height:300px;
+	font-family: "Louis-Regular", serif;
+	/*font-style:italic;*/
+	font-size:13px;
+	color:#464B58;
+}

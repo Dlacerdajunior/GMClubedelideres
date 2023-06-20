@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="scripts/cufon-yui.js" type="text/javascript"></script>
+	<script src="scripts/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	$(window).load(function() {
+		$('#slider1').nivoSlider({ pauseTime:5000, pauseOnHover:false });
+		setTimeout(function(){
+			$('#slider2').nivoSlider({ pauseTime:5000, pauseOnHover:false });
+		}, 1000);
+		setTimeout(function(){
+			$('#slider3').nivoSlider({
+				pauseTime:5000,
+				pauseOnHover:false,
+				controlNavThumbs:true
+			});
+		}, 2000);
+		setTimeout(function(){
+			$('#slider4').nivoSlider({
+				effect:'random',
+				animSpeed:1500,
+				pauseTime:5000,
+				startSlide:2,
+				directionNav:false,
+				controlNav:true,
+				keyboardNav:false,
+				pauseOnHover:false
+			});
+		}, 3000);
+	});
+	</script>
+	<title>Contato</title>
+</head>
+<body>
+	<div id="main">
+		<div id="container">
+			<div id="topo"><img name="Topo" src="imagens/topo.jpg" width="930" height="520" alt="" style="background-color: #993300"></div>
+			<div id="menu">
+				<ul>
+					<li id="item_menu"><a href="index.html">Início</a></li>
+					<li id="item_menu"><a href="destino.html">Destino</a></li>
+					<li id="item_menu"><a href="hotel.html">Hotel</a></li>
+					<li id="item_menu"><a href="roteiro.html">Roteiro</a></li>
+					<li id="item_menu"><a href="dicas.html">Dicas de Viagem</a></li>
+					<li id="item_menu"><a href="http://201.76.181.43/GI/matriz.asp?brif=4977&idpax=0&paxcod" target="_blank">Inscrição</a></li>
+					<li id="item_menu"><a href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+			<header>
+				<h1><em>Contato</em></h1>
+				<h3>Para dúvidas entre em contato</h3>
+			</header>
+
+			<div id="default">
+			  <p class="justificado">&nbsp;</p>
+			  <p class="justificado">&nbsp;</p>
+			  <p class="justificado">Horário de atendimento: <span class="branco">Seg. à Sex. das 9h00 às 18h00</span></p>
+			  <p class="justificado">Telefone: <span class="branco">011 4133-3210</span></p>
+			  <p class="justificado">E-mail: <span class="branco">gm.descobertapremiada@gi.tur.br</span></p>
+			  <p class="justificado">&nbsp;</p>
+			  <p class="justificado">&nbsp;</p>
+			</div>
+			<div id="footer">CLUBE DE LÍDERES - DESCOBERTA PREMIADA - COMANDATUBA 2013</div>
+            <img src="imagens/logo_gm.jpg" width="84" height="39" alt="Chevrolet" style="float:right;">
+		</div>
+	</div>
+</body>
+</html>

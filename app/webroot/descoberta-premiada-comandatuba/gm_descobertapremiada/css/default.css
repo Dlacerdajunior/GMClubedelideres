@@ -1,0 +1,272 @@
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0px solid #000;
+		}
+
+		body {
+			background-color: #000;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+			a.email {
+				color: #fff;
+			}
+
+			a.email:hover {
+				color: #fff;
+				text-decoration:underline;
+			}
+
+			a.botao {
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				color: #BEA569;
+				background-color:#411a00;
+				border:1px inset #BEA569;
+				cursor:pointer;
+				margin-left:5px;
+				margin-top:5px;
+				padding:5px 20px 5px 20px;
+				font-size:15px;
+				font-weight:bold;
+			}
+
+			a.botao:hover {
+				color:#FFF;
+			}
+
+		h1 {
+			font-family:"Times New Roman", Times, serif;
+			font-weight: bold;
+			color: #ecd27b;
+			margin: 15px 0;
+		}
+
+		h3 {
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color: #FFF;
+			margin: 5px 0;
+		}
+		
+		h4 {
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color: #ecd27b;
+			margin: 5px 0;
+		}
+
+		p {
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			color: #ecd27b;
+			font-size: 16px;
+			margin: 10px;
+			padding: auto 20px;
+			line-height:24px;
+		}
+
+			p.centerdiv {
+				padding-top: 45px;
+			}
+			
+			span.branco {
+				color:#FFF;
+			}
+			
+			p.justificado {
+				text-align:justify;
+			}
+
+		img{
+			border: 0;
+		}
+
+			img.left {
+				position: relative;
+				float: left;
+				margin: 8px;
+			}
+
+		#main {
+			height: auto;
+			width:950px;
+			left: 50%;
+			margin-left:-475px;
+			position: absolute;
+			background-color: #000;
+			padding-bottom: 15px;
+		}
+
+		#container {
+			height: auto;
+			width: 930px;
+			left: 50%;
+			margin-left: -465px;
+			position: relative;
+			background-color: #000;
+		}
+
+		#topo {
+			height:520px;
+			width:930px;
+			display: block;
+			text-align: right;
+		}
+
+		#menu ul {
+			background-color: #000;
+			list-style-type: none;
+			height: 30px;
+			width: 930px;
+			margin: auto;
+		}
+
+			#menu ul li {
+				display: inline;
+			}
+
+			#menu ul li a {
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				font-weight: bold;
+				color: #ecd27b;				
+				margin: auto auto auto 11px;
+				padding-top: 7px;
+				width: 120px;
+				height: 23px;
+				text-align: center;
+				float: left;
+			}
+
+			#menu ul li a:hover {
+				background-color: #411a00;
+				color:#FFF;
+			}		
+
+		#slider {
+			width: 930px;
+			height: 250px;
+			float: left;
+			position: relative;
+			margin: auto auto 15px auto;
+		}
+
+		.topodiv {
+			width:100%;
+			height: 28px;
+			background-color: #000;
+			padding-top: 9px;
+			font-family:"Times New Roman", Times, serif;
+			font-size: 0.9em;
+			font-weight: bold;
+			color: #ecd27b;
+			float: left;
+		}
+
+			.topodiv h4 {
+				padding-left: 10px;
+			}
+
+		#participante {
+	width: 550px;
+	height: 170px;
+	float: left;
+	position: relative;
+	margin: auto 10px 15px auto;
+	background-color: #000;
+	border: 1px solid #000;
+		}
+
+		#areaexclusiva {
+	width: 365px;
+	height: 170px;
+	float: left;
+	position: relative;
+	margin: auto auto 15px auto;
+	background-color: #000;
+	border: 1px solid #000;
+		}		
+
+		#default {
+			width: 928px;
+			height: auto;
+			background-color: #000;
+			float: left;
+			position: relative;
+			margin: auto auto 15px auto;
+			border: 1px solid #000;
+		}
+
+		#contato {
+			width: 928px;
+			height: 118px;
+			background-color: #FFF;
+			float: left;
+			position: relative;
+			margin: auto auto 15px auto;
+			border: 1px solid #000;
+		}
+
+		#footer {
+			width: 930px;
+			height: 22px;
+			background-color: #ecd27b;
+			float: left;
+			position: relative;
+			margin: auto;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size: 0.75em;
+			font-weight: bold;
+			color: #000;
+			text-align: center;
+			padding: 5px 0 2px 0;
+		}
+		
+		td {
+			height:25px;
+			background-color: #000;
+			color:#FFF;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+
+		td.title {
+			background-color: #ecd27b;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-weight:bold;
+			text-align:center;
+			color:#000;
+		}
+
+input, select
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color:#F1EECD;
+	border:1px solid #ecd27b;
+    margin-left:5px;
+    margin-top:5px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.btn
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #BEA569;
+	background-color:#411a00;
+	border:1px inset #BEA569;
+	cursor:pointer;
+    margin-left:5px;
+    margin-top:5px;
+	padding:5px 20px 5px 20px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.btn:hover
+{
+	color: #FFF;
+}

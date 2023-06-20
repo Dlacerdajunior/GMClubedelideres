@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+	url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+
+a.bthome{
+	display:block;
+	width:173px;
+	height:28px;
+	background:url(images/home.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.bthome{
+	background:url(images/home-over.png) no-repeat;
+}
+
+a.btranking{
+	display:block;
+	width:173px;
+	height:26px;
+	background:url(images/ranking.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btranking{
+	background:url(images/ranking-over.png) no-repeat;
+}
+
+a.btregulamento{
+	display:block;
+	width:173px;
+	height:26px;
+	background:url(images/regulamento.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btregulamento{
+	background:url(images/regulamento-over.png) no-repeat;
+}
+
+a.btmecanica{
+	display:block;
+	width:173px;
+	height:25px;
+	background:url(images/mecanica.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btmecanica{
+	background:url(images/mecanica-over.png) no-repeat;
+}
+
+.btsorteio{
+	display:block;
+	width:176px;
+	height:224px;
+	background:url(images/hotsite_SemLimites_interna_10.jpg?v=2) no-repeat;
+	text-decoration:none;
+}
+a:hover.btsorteio{
+	background:url(images/hotsite_SemLimites_interna_10-over.jpg?v=2) no-repeat;
+}
+
+
+#contHome{
+	margin-left:26px;
+	margin-top:-50px;
+	width:525px;
+	height:190px;
+	font-family: "Louis-Regular", serif;
+	/*font-style:italic;*/
+	font-size:15px;
+	color:#464B58;
+}
+
+#contInt{
+	margin-top:-39px;
+	width:600px;
+	height:400px;	
+	font-family: "Louis-Regular", serif;
+	/*font-style:italic;*/
+	font-size:13px;
+	color:#464B58;
+}
+
+.btsorteiohome{
+ display:block;
+ width:173px;
+ height:46px;
+background:url(images/index_09.jpg?v=2) no-repeat;
+ text-decoration:none;
+}
+
+a:hover.btsorteiohome{
+ background:url(images/index_09-over.jpg?v=2) no-repeat;
+} 

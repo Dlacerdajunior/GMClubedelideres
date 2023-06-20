@@ -1,0 +1,14 @@
+[10-Jun-2013 15:23:29] PHP Fatal error:  Call to undefined function  form_close() in /home/david/public_html/clubdelideres/app/View/Campanha/admin_editar.ctp on line 85
+[10-Jun-2013 15:23:30] PHP Fatal error:  Call to undefined function  form_close() in /home/david/public_html/clubdelideres/app/View/Campanha/admin_editar.ctp on line 85
+[10-Jun-2013 15:23:31] PHP Fatal error:  Call to undefined function  form_close() in /home/david/public_html/clubdelideres/app/View/Campanha/admin_editar.ctp on line 85
+[20-Jun-2013 00:53:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:53:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:54:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103
+[20-Jun-2013 00:54:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected $end in /home/marcelli/public_html/dev/clubedelideres/app/View/Campanhas/admin_edit.ctp on line 103

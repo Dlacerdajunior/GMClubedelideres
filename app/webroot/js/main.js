@@ -1,0 +1,3 @@
+
+$('#destaques.carousel').carousel('pause');
+

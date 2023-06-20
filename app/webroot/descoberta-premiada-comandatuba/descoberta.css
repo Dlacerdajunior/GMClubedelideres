@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+	url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+#campanhaDesc{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tudocamp{
+	position:absolute;
+	z-index:100;
+	width:100%;
+}
+
+a.bthome{
+	display:block;
+	width:97px;
+	height:50px;
+	background:url(images/hotsite_DescComan_r2_c1.jpg) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.bthome{
+	background:url(images/home-over.jpg) no-repeat;
+}
+
+a.btregulamento{
+	display:block;
+	width:126px;
+	height:50px;
+	background:url(images/hotsite_DescComan_r2_c2.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btregulamento{
+	background:url(images/regulamento-over.jpg) no-repeat;
+}
+
+a.btranking{
+	display:block;
+	width:85px;
+	height:50px;
+	background:url(images/hotsite_DescComan_r2_c4.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btranking{
+	background:url(images/ranking-over.jpg) no-repeat;
+}
+
+a.btpremiacao{
+	display:block;
+	width:126px;
+	height:50px;
+	background:url(images/hotsite_DescComan_r2_c5.jpg) no-repeat;
+	text-decoration:none;
+}
+a:hover.btpremiacao{
+	background:url(images/premiacao-over.jpg) no-repeat;
+}
+
+.textocamp{
+	padding-top:38px;
+	width:1000px;
+	color:#ecd27b;
+	font-family: "Durant-Regular", serif;
+	font-size:17px;
+}

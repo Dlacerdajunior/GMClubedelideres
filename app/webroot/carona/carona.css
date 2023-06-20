@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+	url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+
+a.bthome{
+	display:block;
+	width:70px;
+	height:35px;
+	background:url(images/home.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.bthome{
+	background:url(images/home-over.png) no-repeat;
+}
+
+a.btranking{
+	display:block;
+	width:84px;
+	height:35px;
+	background:url(images/ranking.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btranking{
+	background:url(images/ranking-over.png) no-repeat;
+}
+
+a.btregulamento{
+	display:block;
+	width:113px;
+	height:35px;
+	background:url(images/regulamento.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btregulamento{
+	background:url(images/regulamento-over.png) no-repeat;
+}
+
+a.btpremiacao{
+	display:block;
+	width:107px;
+	height:35px;
+	background:url(images/premiacao.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btpremiacao{
+	background:url(images/premiacao-over.png) no-repeat;
+}
+
+a.btdestino{
+	display:block;
+	width:101px;
+	height:29px;
+	background:url(images/destino.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btdestino{
+	background:url(images/destino-over.png) no-repeat;
+}
+
+a.btdicas{
+	display:block;
+	width:101px;
+	height:28px;
+	background:url(images/dicas.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btdicas{
+	background:url(images/dicas-over.png) no-repeat;
+}
+
+a.bthoteis{
+	display:block;
+	width:101px;
+	height:30px;
+	background:url(images/hoteis.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.bthoteis{
+	background:url(images/hoteis-over.png) no-repeat;
+}
+
+a.btroteiro{
+	display:block;
+	width:101px;
+	height:32px;
+	background:url(images/roteiro.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btroteiro{
+	background:url(images/roteiro-over.png) no-repeat;
+}
+
+#contHome{
+	margin-left:0px;
+	padding-top:20px;
+	width:520px;
+	height:188px;
+	font-family: "Louis-Regular", serif;
+	font-style:italic;
+	font-size:15px;
+	color:#464B58;
+}
+
+#contInt{
+	margin-left:0px;
+	padding-top:20px;
+	width:520px;
+	height:188px;
+	font-family: "Louis-Regular", serif;
+	font-style:italic;
+	font-size:15px;
+	color:#464B58;
+}

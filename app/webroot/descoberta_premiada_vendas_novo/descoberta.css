@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.eot');
+}
+
+@font-face {
+	font-family: 'Durant-Regular';
+	src: url('fonts/DurantRegular.woff') format('woff'),
+	url('fonts/DurantRegular.svg#Durant-Regular') format('svg');
+}
+
+
+
+a.bthome{
+	display:block;
+	width:105px;
+	height:59px;
+	background:url(images/home.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.bthome{
+	background:url(images/home-over.png) no-repeat;
+}
+
+a.btranking{
+	display:block;
+	width:76px;
+	height:59px;
+	background:url(images/ranking.png) 0 0 no-repeat;
+	text-decoration:none;
+}
+a:hover.btranking{
+	background:url(images/ranking-over.png) no-repeat;
+}
+
+a.btregulamento{
+	display:block;
+	width:116px;
+	height:59px;
+	background:url(images/regulamento.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btregulamento{
+	background:url(images/regulamento-over.png) no-repeat;
+}
+
+a.btpremiacao{
+	display:block;
+	width:104px;
+	height:59px;
+	background:url(images/premiacao.png) no-repeat;
+	text-decoration:none;
+}
+a:hover.btpremiacao{
+	background:url(images/premiacao-over.png) no-repeat;
+}
+
+#contHome{
+	margin-left:0px;
+	margin-top:38px;
+	width:569px;
+	height:254px;
+	font-family: "Louis-Regular", serif;
+	/*font-style:italic;*/
+	font-size:15px;
+	color:#464B58;
+}
